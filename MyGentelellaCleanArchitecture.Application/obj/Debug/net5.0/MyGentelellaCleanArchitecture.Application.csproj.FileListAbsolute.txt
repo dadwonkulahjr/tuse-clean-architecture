@@ -10,3 +10,6 @@ C:\Users\Dad S. Wonkulah Jr\source\repos\MyGentelellaCleanArchitecture\MyGentele
 C:\Users\Dad S. Wonkulah Jr\source\repos\MyGentelellaCleanArchitecture\MyGentelellaCleanArchitecture.Application\obj\Debug\net5.0\MyGentelellaCleanArchitecture.Application.dll
 C:\Users\Dad S. Wonkulah Jr\source\repos\MyGentelellaCleanArchitecture\MyGentelellaCleanArchitecture.Application\obj\Debug\net5.0\ref\MyGentelellaCleanArchitecture.Application.dll
 C:\Users\Dad S. Wonkulah Jr\source\repos\MyGentelellaCleanArchitecture\MyGentelellaCleanArchitecture.Application\obj\Debug\net5.0\MyGentelellaCleanArchitecture.Application.pdb
+C:\Users\Dad S. Wonkulah Jr\source\repos\MyGentelellaCleanArchitecture\MyGentelellaCleanArchitecture.Application\bin\Debug\net5.0\MyGentelellaCleanArchitecture.Domain.dll
+C:\Users\Dad S. Wonkulah Jr\source\repos\MyGentelellaCleanArchitecture\MyGentelellaCleanArchitecture.Application\bin\Debug\net5.0\MyGentelellaCleanArchitecture.Domain.pdb
+C:\Users\Dad S. Wonkulah Jr\source\repos\MyGentelellaCleanArchitecture\MyGentelellaCleanArchitecture.Application\obj\Debug\net5.0\MyGentelellaCleanArchitecture.Application.csproj.CopyComplete

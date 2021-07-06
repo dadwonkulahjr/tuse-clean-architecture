@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyGentelellaCleanArchitecture.WebUI", "MyGentelellaCleanArchitecture.WebUI\MyGentelellaCleanArchitecture.WebUI.csproj", "{B70C9047-21ED-45C5-AD2B-EEB990763EA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGentelellaCleanArchitecture.Application", "MyGentelellaCleanArchitecture.Application\MyGentelellaCleanArchitecture.Application.csproj", "{E46E59EE-FA07-4F48-8FF2-8556AC322BC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyGentelellaCleanArchitecture.Application", "MyGentelellaCleanArchitecture.Application\MyGentelellaCleanArchitecture.Application.csproj", "{E46E59EE-FA07-4F48-8FF2-8556AC322BC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGentelellaCleanArchitecture.Domain", "MyGentelellaCleanArchitecture.Domain\MyGentelellaCleanArchitecture.Domain.csproj", "{789DAAD4-472B-485A-9420-BB5A74442CDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyGentelellaCleanArchitecture.Domain", "MyGentelellaCleanArchitecture.Domain\MyGentelellaCleanArchitecture.Domain.csproj", "{789DAAD4-472B-485A-9420-BB5A74442CDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGentelellaCleanArchitecture.Infrastructure", "MyGentelellaCleanArchitecture.Infrastructure\MyGentelellaCleanArchitecture.Infrastructure.csproj", "{09C37949-62A5-4974-B2F2-33393687127A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyGentelellaCleanArchitecture.Infrastructure", "MyGentelellaCleanArchitecture.Infrastructure\MyGentelellaCleanArchitecture.Infrastructure.csproj", "{09C37949-62A5-4974-B2F2-33393687127A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

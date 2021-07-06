@@ -39,6 +39,7 @@
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "5.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.7",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.7",
+          "MyGentelellaCleanArchitecture.Application": "1.0.0",
           "MyGentelellaCleanArchitecture.Infrastructure": "1.0.0",
           "NSwag.AspNetCore": "13.11.3",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
@@ -1777,6 +1778,17 @@
         },
         "compile": {
           "lib/netstandard2.1/YamlDotNet.dll": {}
+        }
+      },
+      "MyGentelellaCleanArchitecture.Application/1.0.0": {
+        "dependencies": {
+          "MyGentelellaCleanArchitecture.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MyGentelellaCleanArchitecture.Application.dll": {}
+        },
+        "compile": {
+          "MyGentelellaCleanArchitecture.Application.dll": {}
         }
       },
       "MyGentelellaCleanArchitecture.Domain/1.0.0": {
@@ -4359,6 +4371,11 @@
       "sha512": "sha512-dVVZVhQxTI4xTNc9YorE+RruBFPPYKP44kMijE6Z5OQQE7zK+SEmh2sPm091CrTYVz1jjIuXKIBm1kFLrlsQJg==",
       "path": "yamldotnet/9.1.4",
       "hashPath": "yamldotnet.9.1.4.nupkg.sha512"
+    },
+    "MyGentelellaCleanArchitecture.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "MyGentelellaCleanArchitecture.Domain/1.0.0": {
       "type": "project",

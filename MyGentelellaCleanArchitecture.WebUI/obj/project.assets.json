@@ -2011,6 +2011,22 @@
           "lib/netstandard2.1/YamlDotNet.dll": {}
         }
       },
+      "MyGentelellaCleanArchitecture.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MyGentelellaCleanArchitecture.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyGentelellaCleanArchitecture.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyGentelellaCleanArchitecture.Application.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "MyGentelellaCleanArchitecture.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -2034,7 +2050,10 @@
         },
         "runtime": {
           "bin/placeholder/MyGentelellaCleanArchitecture.Infrastructure.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -7107,6 +7126,11 @@
         "yamldotnet.nuspec"
       ]
     },
+    "MyGentelellaCleanArchitecture.Application/1.0.0": {
+      "type": "project",
+      "path": "../MyGentelellaCleanArchitecture.Application/MyGentelellaCleanArchitecture.Application.csproj",
+      "msbuildProject": "../MyGentelellaCleanArchitecture.Application/MyGentelellaCleanArchitecture.Application.csproj"
+    },
     "MyGentelellaCleanArchitecture.Domain/1.0.0": {
       "type": "project",
       "path": "../MyGentelellaCleanArchitecture.Domain/MyGentelellaCleanArchitecture.Domain.csproj",
@@ -7126,6 +7150,7 @@
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 5.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.7",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.7",
+      "MyGentelellaCleanArchitecture.Application >= 1.0.0",
       "MyGentelellaCleanArchitecture.Infrastructure >= 1.0.0",
       "NSwag.AspNetCore >= 13.11.3"
     ]
@@ -7157,6 +7182,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\Dad S. Wonkulah Jr\\source\\repos\\MyGentelellaCleanArchitecture\\MyGentelellaCleanArchitecture.Application\\MyGentelellaCleanArchitecture.Application.csproj": {
+              "projectPath": "C:\\Users\\Dad S. Wonkulah Jr\\source\\repos\\MyGentelellaCleanArchitecture\\MyGentelellaCleanArchitecture.Application\\MyGentelellaCleanArchitecture.Application.csproj"
+            },
             "C:\\Users\\Dad S. Wonkulah Jr\\source\\repos\\MyGentelellaCleanArchitecture\\MyGentelellaCleanArchitecture.Infrastructure\\MyGentelellaCleanArchitecture.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\Dad S. Wonkulah Jr\\source\\repos\\MyGentelellaCleanArchitecture\\MyGentelellaCleanArchitecture.Infrastructure\\MyGentelellaCleanArchitecture.Infrastructure.csproj"
             }

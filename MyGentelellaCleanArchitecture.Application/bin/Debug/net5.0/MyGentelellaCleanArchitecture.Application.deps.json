@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "MyGentelellaCleanArchitecture.Application/1.0.0": {
+        "dependencies": {
+          "MyGentelellaCleanArchitecture.Domain": "1.0.0"
+        },
         "runtime": {
           "MyGentelellaCleanArchitecture.Application.dll": {}
+        }
+      },
+      "MyGentelellaCleanArchitecture.Domain/1.0.0": {
+        "runtime": {
+          "MyGentelellaCleanArchitecture.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "MyGentelellaCleanArchitecture.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyGentelellaCleanArchitecture.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -4,13 +4,15 @@
     ViewData["Title"] = "List Of Students";
 }
 
-<div class="border backgroundWhite container shadow mt-5">
+<div class="border backgroundWhite container shadow" style="margin-top:70px;">
 
-    <h1 class="text-primary">Student List</h1>
+    <div class="row"> 
+        <div class="col-12"><h1 class="text-success">Student List</h1></div>
+    </div>
 
     <div class="row">
         <div class="col-12 text-right">
-            <a asp-page="/admin/employee/upsert" class="btn btn-outline-primary"><i class="fa fa-plus">&nbsp;Create new record</i></a>
+            <a asp-page="/Admin/Student/Upsert" class="btn btn-success"><i class="fas fa-plus-circle">&nbsp;Create new record</i></a>
         </div>
     </div>
 
@@ -19,11 +21,11 @@
         <table id="DT_load" class="table table-striped table-hover" style="width:100%">
             <thead>
                 <tr>
+                    <th>Fullname</th>
                     <th>First name</th>
                     <th>Last name</th>
                     <th>Email</th>
-                    <th>Salary</th>
-                    <th>Gender</th>
+                    <th>Date Enrolled</th>
                     <th></th>
                 </tr>
             </thead>
@@ -34,5 +36,5 @@
 
 
 @section Scripts{
-    <script src="~/js/employees.js"></script>
+    <script src="~/js/students.js"></script>
 }

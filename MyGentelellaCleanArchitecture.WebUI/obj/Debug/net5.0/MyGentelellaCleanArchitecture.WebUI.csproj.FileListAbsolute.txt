@@ -408,3 +408,7 @@ C:\Users\Dad S. Wonkulah Jr\source\repos\MyGentelellaCleanArchitecture\MyGentele
 C:\Users\Dad S. Wonkulah Jr\source\repos\MyGentelellaCleanArchitecture\MyGentelellaCleanArchitecture.WebUI\bin\Debug\net5.0\MyGentelellaCleanArchitecture.Infrastructure.dll
 C:\Users\Dad S. Wonkulah Jr\source\repos\MyGentelellaCleanArchitecture\MyGentelellaCleanArchitecture.WebUI\bin\Debug\net5.0\MyGentelellaCleanArchitecture.Infrastructure.pdb
 C:\Users\Dad S. Wonkulah Jr\source\repos\MyGentelellaCleanArchitecture\MyGentelellaCleanArchitecture.WebUI\bin\Debug\net5.0\MyGentelellaCleanArchitecture.Domain.pdb
+C:\Users\Dad S. Wonkulah Jr\source\repos\MyGentelellaCleanArchitecture\MyGentelellaCleanArchitecture.WebUI\obj\Debug\net5.0\Razor\Pages\Admin\Student\Upsert.cshtml.g.cs
+C:\Users\Dad S. Wonkulah Jr\source\repos\MyGentelellaCleanArchitecture\MyGentelellaCleanArchitecture.WebUI\obj\Debug\net5.0\Razor\Pages\Admin\Course\Upsert.cshtml.g.cs
+C:\Users\Dad S. Wonkulah Jr\source\repos\MyGentelellaCleanArchitecture\MyGentelellaCleanArchitecture.WebUI\bin\Debug\net5.0\MyGentelellaCleanArchitecture.Application.dll
+C:\Users\Dad S. Wonkulah Jr\source\repos\MyGentelellaCleanArchitecture\MyGentelellaCleanArchitecture.WebUI\bin\Debug\net5.0\MyGentelellaCleanArchitecture.Application.pdb

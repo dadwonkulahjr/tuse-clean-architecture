@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MyGentelellaCleanArchitecture.Application\MyGentelellaCleanArchitecture.Application.csproj" />
     <ProjectReference Include="..\MyGentelellaCleanArchitecture.Infrastructure\MyGentelellaCleanArchitecture.Infrastructure.csproj" />
   </ItemGroup>
 

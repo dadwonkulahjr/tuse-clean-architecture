@@ -1,0 +1,141 @@
+﻿@page
+@model MyGentelellaCleanArchitecture.WebUI.Pages.Admin.Course.UpsertModel
+@{
+    if (Model.CourseVM.Course.CourseId != 0)
+    {
+        ViewData["Title"] = "Update new course";
+    }
+    else
+    {
+        ViewData["Title"] = "Create new course";
+    }
+}
+
+<form method="post" asp-page="upsert">
+    <div class="container">
+        @if (@Model.CourseVM.Course.CourseId != 0)
+        {
+            <input type="hidden" asp-for="@Model.CourseVM.Course.CourseId" />
+        }
+        <div class="row px-2 mx-2 backgroundWhite border shadow" style="height:600px;">
+            <div class="col-12 px-3" style="border-bottom:1px solid #325d88">
+                <h2 class="text-success">@(@Model.CourseVM.Course.CourseId != 0 ? "Update course" : "Create new course")</h2>
+            </div>
+            <div class="col-8 pt-3">
+
+                <div class="form-group row">
+                    <div class="col-3">
+                        <label asp-for="CourseVM.Student.FullName"></label>
+                    </div>
+                    <div class="col-9">
+                        <input asp-for="CourseVM.Student.FullName" class="form-control" placeholder="Fullname..." readonly="readonly" />
+                        <span asp-validation-for="CourseVM.Student.FullName" class="text-danger"></span>
+                    </div>
+                </div>
+
+
+                <div class="form-group row">
+                    <div class="col-3">
+                        <label asp-for="CourseVM.Student.FirstName"></label>
+                    </div>
+                    <div class="col-9">
+                        <input asp-for="CourseVM.Student.FirstName" class="form-control" placeholder="First name..." readonly="readonly" />
+                        <span asp-validation-for="CourseVM.Student.FirstName" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-3">
+                        <label asp-for="CourseVM.Student.Email"></label>
+                    </div>
+                    <div class="col-9">
+                        <input asp-for="CourseVM.Student.Email" class="form-control" placeholder="First name..." readonly="readonly" />
+                        <span asp-validation-for="CourseVM.Student.Email" class="text-danger"></span>
+                    </div>
+                </div>
+
+
+                <div class="form-group row">
+                    <div class="col-3">
+                        <label asp-for="CourseVM.Student.DateEnrolled"></label>
+                    </div>
+                    <div class="col-9">
+                        <input asp-for="CourseVM.Student.DateEnrolled" class="form-control" placeholder="First name..." readonly="readonly" />
+                        <span asp-validation-for="CourseVM.Student.DateEnrolled" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-3">
+                        <label asp-for="CourseVM.Course.CourseId"></label>
+                    </div>
+                    <div class="col-9">
+                        @Html.DropDownListFor(c => c.CourseVM.Course.CourseId,
+                            Model.CourseVM.GetDropdownListForCourse,
+                            "-Please select a Course-",
+                            new { @class = "form-control" })
+                        <span asp-validation-for="CourseVM.Course.CourseId" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-3">
+                        <label>Course hour</label>
+                    </div>
+                    <div class="col-9">
+                        @Html.DropDownListFor(c => c.CourseVM.Course.CourseId,
+                            Model.CourseVM.GetDropdownListForCourseHrs,
+                            "-Please select a Course hour-",
+                            new { @class = "form-control" })
+                        <span asp-validation-for="CourseVM.Course.CourseId" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-3">
+                        <label>Course number</label>
+                    </div>
+                    <div class="col-9">
+                        @Html.DropDownListFor(c => c.CourseVM.Course.CourseId,
+                            Model.CourseVM.GetDropdownListForCourseNum,
+                            "-Please select a Course number-",
+                            new { @class = "form-control" })
+                        <span asp-validation-for="CourseVM.Course.CourseId" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-9 offset-3">
+                        <div class="row">
+                            <div class="col-6 col-12">
+                                @if (Model.CourseVM.Course.CourseId == 0)
+                                {
+                                    <button type="submit" class="btn btn-primary form-control">
+                                        <i class="far fa-edit"></i>&nbsp;Create
+                                    </button>
+                                }
+                                else
+                                {
+                                    <button type="submit" class="btn btn-primary form-control">
+                                        <i class="far fa-edit"></i>&nbsp;Update
+                                    </button>
+                                }
+
+                            </div>
+                            <div class="col-12">
+                                <a asp-page="./Index" class="btn btn-success form-control">
+                                    <i class="fas fa-arrow-circle-left"></i>&nbsp;Back
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</form>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+
+}
