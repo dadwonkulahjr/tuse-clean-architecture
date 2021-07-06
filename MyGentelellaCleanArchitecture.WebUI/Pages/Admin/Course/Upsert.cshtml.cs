@@ -42,9 +42,6 @@ namespace MyGentelellaCleanArchitecture.WebUI.Pages.Admin.Course
         public async Task<IActionResult> OnPostAsync()
         {
 
-            if (!ModelState.IsValid) return Page();
-
-
             if (CourseVM.Course.CourseId == 0)
             {
                 //Add new record...
