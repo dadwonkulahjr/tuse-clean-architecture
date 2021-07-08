@@ -32,7 +32,7 @@ namespace MyGentelellaCleanArchitecture.WebUI.Pages.Admin.Course
                 CourseVM.GetDropdownListForCourseHrs = _unitOfWork.Course.GetDropdownSelectListItemForCourseHrs();
                 CourseVM.GetDropdownListForCourseNum = _unitOfWork.Course.GetDropdownSelectListItemForCourseNum();
 
-                CourseVM.Student = await _unitOfWork.Student.GetFirstOrDefaultEntityTypeAsync(s => s.StudentId == id.Value);
+                CourseVM.Student = await _unitOfWork.Student.GetFirstOrDefaultEntityTypeAsync(s => s.StudentId == CourseVM.Course.StudentId);
 
                 return Page();
             }
@@ -52,6 +52,11 @@ namespace MyGentelellaCleanArchitecture.WebUI.Pages.Admin.Course
             else
             {
                 //Update existing record...
+                foreach (var key in Request.Form.Keys)
+                {
+
+                }
+
                 await _unitOfWork.Course.Update(CourseVM.Course);
                 return RedirectToPage("./Index");
 
